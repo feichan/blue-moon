@@ -1,0 +1,7 @@
+# set image path folder
+origin: "<%= ENV["APP_ROOT"] %>/public/images/origin/"
+cache: "<%= ENV["APP_ROOT"] %>/public/images/cache/"
+error: "<%= ENV["APP_ROOT"] %>/public/images/error/"
+# image type and size list
+image_types: ['png','jpg','jpeg','gif','JPG']
+image_sizes: [960,768,640,320]
